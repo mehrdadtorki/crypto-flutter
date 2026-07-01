@@ -1,0 +1,75 @@
+# -------------------------------------------------------------------------
+# Dart & Flutter Tooling (Generated files and directories)
+# -------------------------------------------------------------------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.server/
+build/
+
+# -------------------------------------------------------------------------
+# Web Generated Files (If compiling Flutter for Web)
+# -------------------------------------------------------------------------
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# -------------------------------------------------------------------------
+# Symbols, Documentation, and Logs
+# -------------------------------------------------------------------------
+*.dwo
+*.log
+doc/api/
+
+# -------------------------------------------------------------------------
+# Application Secrets and Environment Variables
+# -------------------------------------------------------------------------
+.env
+.env.*
+! .env.example
+**/android/key.properties
+
+# -------------------------------------------------------------------------
+# Android Specific Profile and Build Files
+# -------------------------------------------------------------------------
+**/android/.gradle/
+**/android/local.properties
+**/android/app/ext_config.svg
+**/android/app/*_config.svg
+
+# -------------------------------------------------------------------------
+# iOS/macOS Specific Cache and Workspace Files
+# -------------------------------------------------------------------------
+**/ios/.generated/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/.m2/
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+**/macos/Pods/
+**/macos/.symlinks/
+
+# -------------------------------------------------------------------------
+# IDEs and Editors
+# -------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Operating System Files
+.DS_Store
+Thumbs.db
